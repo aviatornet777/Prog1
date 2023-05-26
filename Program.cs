@@ -52,18 +52,39 @@
 // если число 2 не кратно числу 1, то выводится остаток от деления
 
 
-Console.WriteLine("Введите число");
+//Console.WriteLine("Введите число");
+//int num1=Convert.ToInt32(Console.ReadLine());
+
+//Console.WriteLine("Введите число");
+//int num2=Convert.ToInt32(Console.ReadLine());
+
+//if (num1 % num2 == 0)
+//{
+  //  Console.WriteLine("кратны");
+
+//}
+//else
+//{
+    //Console.WriteLine("Остаток о деления");можно записать Console.WriteLine("Остаток о деления"+ num1 % num2); Канкатинация
+    // так же можно записать Console.WriteLine($"Остаток о деления{num1 % num2}"); Интерполяция
+   // Console.WriteLine(num1/num2);
+//}
+
+
+//          Задача 4
+//          Напишите программу котрая принимает на вход
+//         число и проверяет, кратно ли оно одновременно
+//          7 и 23
+//
+//
+Console.WriteLine("Введите большое число");
 int num1=Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число");
-int num2=Convert.ToInt32(Console.ReadLine());
-
-if (num1 % num2 == 0)
+if ((num1 % 7 == 0) && (num1 % 23 == 0))   //стоит && значит выполняется & первое условие & второе
 {
-    Console.WriteLine("кратны");
-
+    Console.WriteLine("Да");
 }
 else
 {
-    Console.WriteLine("не кратны");
+      Console.WriteLine("Нет");
 }
