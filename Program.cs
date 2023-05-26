@@ -41,3 +41,29 @@
 
 // int result=num1*10+num2; // вводим переменную result количество сотен умножаем на 10, получаем десятки и прибавляем количество единиц
 // Console.WriteLine(result); //выводим результат
+
+//
+
+
+
+//          Задача 3
+// написать программу которая будет принимать на вход два числа и  
+// выводить является ли второе число кратным первому
+// если число 2 не кратно числу 1, то выводится остаток от деления
+
+
+Console.WriteLine("Введите число");
+int num1=Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Введите число");
+int num2=Convert.ToInt32(Console.ReadLine());
+
+if (num1 % num2 == 0)
+{
+    Console.WriteLine("кратны");
+
+}
+else
+{
+    Console.WriteLine("не кратны");
+}
