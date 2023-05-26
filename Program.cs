@@ -77,14 +77,34 @@
 //          7 и 23
 //
 //
-Console.WriteLine("Введите большое число");
-int num1=Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("Введите большое число");
+//int num1=Convert.ToInt32(Console.ReadLine());
 
-if ((num1 % 7 == 0) && (num1 % 23 == 0))   //стоит && значит выполняется & первое условие & второе
-{
-    Console.WriteLine("Да");
-}
-else
-{
-      Console.WriteLine("Нет");
-}
+//if ((num1 % 7 == 0) && (num1 % 23 == 0))   //стоит && значит выполняется & первое условие & второе
+//{
+ //   Console.WriteLine("Да");
+//}
+//else
+//{
+  //    Console.WriteLine("Нет");
+//}
+
+//          3адача 5
+//      Написать программу, которая  принимает на вход
+//      два числа и проверяет явлется одно число 
+//      квадратом другого.
+//      
+        Console.WriteLine("Введите число");
+        int num1=Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("Введите число");
+        int num2=Convert.ToInt32(Console.ReadLine());
+
+        if ((num1 == num2*num2) || (num2 == num1*num1))
+        {
+            Console.WriteLine("Да");
+        }
+        else
+        {
+            Console.WriteLine("Нет");
+        }
